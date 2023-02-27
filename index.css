@@ -1,0 +1,252 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(#8FCB9B, white);
+    font-family: "Poppins", sans-serif;
+}
+nav
+{
+    margin-top:35px;
+    margin-left:350px;
+   
+}
+
+ul{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    list-style: none;
+}
+
+li{
+    float:left;
+    margin-right: 0px;
+    margin-top: 25px;
+}
+
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+li a:hover{
+    color: white;
+}
+.deer
+{
+    max-width:50px;
+    max-height:50px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.sizedeer
+{
+    width: 400px;
+    height: auto;
+}
+.squirrel
+{
+    max-width:50px;
+    max-height:50px;
+    margin-top: -85px;
+    margin-bottom: 50px;
+    margin-left:625px;
+    margin-right: 0px;
+}
+
+.sizesquirrel
+{
+    width: 400px;
+    height: auto;
+}
+.bunny
+{
+    max-width:50px;
+    max-height:50px;
+    margin-top: -85px;
+    margin-bottom: 50px;
+    margin-left: 1055px;
+    margin-right: 0px;
+}
+
+.sizebunny
+{
+    width: 400px;
+    height: auto;
+}
+.srlogo
+{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -275px;
+}
+nav a{
+    width: 100px;
+    padding: 20px 40px;
+    text-decoration:none;
+    text-align: center;
+}
+
+.infobox{
+    background-color: white;
+    width: 700px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #8FCB9B;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 35px;
+    border-radius: 60px;
+}
+.textmove{
+    margin-left: 100px;
+    margin-top: 400px;
+}
+.diamond{
+    height: 450px;
+    width: 450px;
+    background-color: #5B9279;
+    transform: rotate(45deg);
+    border-radius: 70px;
+    margin-top: -300px;
+    margin-left: 1100px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.diamondtext{
+    font-family: 'Cookie', cursive;
+    transform: rotate(-45deg);
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 60px;
+    color: white;
+}
+
+.fundinfo{
+    margin-top: -140px;
+    margin-left: 725px;
+    font-size:25px;
+}
+.deselement{
+    width:600px;
+    height:50px;
+    border-radius:70px;
+    background-color: black;
+    margin-top:-80px;
+    margin-left:50px;
+}
+.deselement2{
+    width:400px;
+    height:50px;
+    border-radius:70px;
+    background-color: #5B9279;
+    margin-top:-120px;
+    margin-left:50px;
+}
+.circle{
+    width:700px;
+    height:700px;
+    border-radius:50%;
+    background-color:#8FCB9B;
+    margin-top: 200px;
+    margin-left:30px;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+}
+.circletext{
+    font-size:80px;
+    margin-left:90px;
+    margin-top:130px;
+
+}
+.popoutimages{
+    display:flex;
+    margin-top:-500px;
+    margin-left:800px;
+}
+.popoutimages img{
+    border-color: #5B9279;
+    border-style: solid;
+    border-width:3px;
+    border-radius:100px;
+    transition: 1s;
+}
+.popoutimages img:hover{
+transform: scale(1.2);
+}
+
+.popoutimages .fox{
+    height:300px;
+    margin-right:20px;
+}
+.popoutimages .owl{
+    height:300px;
+    margin-right:20px;
+
+}
+.popoutimages .rabbit{
+    height:300px;
+    margin-right:20px;
+
+}
+.popoutimages .bird{
+    height:300px;
+}
+.names{
+    margin-left:830px;
+}
+.names2{
+    margin-left:1030px;
+    margin-top:-95px;
+}
+.names3{
+    margin-left:1230px;
+    margin-top:-100px;
+}
+.names4{
+    margin-left:1430px;
+    margin-top:-105px;
+}
+.form{
+    margin-top:10px;
+    padding-left:100px;
+}
+input[type=text]{
+    border-radius:20px;
+    border-style:solid;
+    border-color:black;
+    height:25px;
+    width:200px;
+    margin-left:425px;
+}
+input[type=submit]{
+    border-radius:20px;
+    background-color:#8FCB9B;
+    font-family:'Poppins', sans-serif;
+}
+footer{
+width:auto;
+height:400px;
+background-color:#5B9279;
+}
+.email{
+    margin-top:0px;
+    margin-left:425px;
+}
+.footertext{
+    margin-left:425px;
+}
+.copyright{
+    margin-left:800px;
+}
